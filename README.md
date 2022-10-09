@@ -31,7 +31,7 @@ Portfolio: [andrewmosesdev](andrewmosesdev.herokuapp.com)
 
 ### 📊 Repo Overview
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=andrewmosesdrive&hide=java,html,css&theme=radical)](https://github.com/andrewmosesdrive/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=andrewmosesdev&hide=java,html,css&theme=radical)](https://github.com/andrewmosesdrive/github-readme-stats)
 
-[![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=andrewmosesdrive&theme=radical)](https://github.com/andrewmosesdrive/github-readme-stats)
+[![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=andrewmosesdev&theme=radical)](https://github.com/andrewmosesdrive/github-readme-stats)
 Footer
