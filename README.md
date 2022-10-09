@@ -1,6 +1,6 @@
-### Hi there 👋 I'm Andrew Moses.
+### Hi there 👋
 
-I'm a Software Engineer specializing in the MERN stack. I'm a big fan of JavaScript, solving puzzles, and helping others in their coding journey.
+Software Engineer | Web Developer | Pro-Googler. Big fan of JavaScript, solving puzzles, and helping others in their coding journey.
 
 ---
 
@@ -23,9 +23,9 @@ I'm a Software Engineer specializing in the MERN stack. I'm a big fan of JavaScr
 
 ### 📭 Contact 
 
-Email: andrewmosesdrive@gmail.com
+Email: TBD X
 
-Portfolio: [andrewmosesdev](andrewmosesdev.herokuapp.com)
+Portfolio: Updating X
 
 ---
 
