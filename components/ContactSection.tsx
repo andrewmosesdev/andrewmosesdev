@@ -4,22 +4,24 @@ import { HiOutlineDocumentText } from 'react-icons/hi'
 
 const contactLinks = [
     {
-        element: <a href="" className="rounded-sm border-white border-2 p-1 mx-1">
+        element: <a href="https://www.linkedin.com/in/andrewjmoses/" className="rounded-sm border-white border-2 p-1 mx-1">
             <SiLinkedin className="text-lg " />
         </a>
     },
     {
-        element: <a href="" className="rounded-sm border-white border-2 p-1 mx-1">
+        element: <a href="https://github.com/andrewmosesdev" className="rounded-sm border-white border-2 p-1 mx-1">
             <SiGithub className="text-lg " />
 
         </a>
     },
     {
-        element: <a href="" className="rounded-sm border-white border-2 p-1 mx-1">
+        // TODO: gmail account
+        element: <a href="mailto: andrewmosesdev@gmail.com" className="rounded-sm border-white border-2 p-1 mx-1">
             <AiOutlineMail className="text-lg " />
         </a>
     },
     {
+        // TODO: resume setup
         element: <a href="" className="rounded-sm border-white border-2 p-1 mx-1">
             <HiOutlineDocumentText className="text-lg " />
         </a>

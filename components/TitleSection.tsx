@@ -1,5 +1,5 @@
-const bracketL: string = "{";
-const bracketR: string = "}";
+const bracketL = "{";
+const bracketR = "}";
 const TitleSection = (): JSX.Element => (
     <section className="flex flex-col items-center text-center max-w-[280px] sm:max-w-[560px] mt-[10%]">
         <h1 className="text-6xl mb-10">
