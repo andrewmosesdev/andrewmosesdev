@@ -15,14 +15,12 @@ const contactLinks = [
         </a>
     },
     {
-        // TODO: gmail account
         element: <a href="mailto: andrewmosesdev@gmail.com" className="rounded-sm border-white border-2 p-1 mx-1">
             <AiOutlineMail className="text-lg " />
         </a>
     },
     {
-        // TODO: resume setup
-        element: <a href="" className="rounded-sm border-white border-2 p-1 mx-1">
+        element: <a href="https://docs.google.com/document/d/1ATXNNyOWpP7TMpHcFFAZKqai5InChXYfKXqlFvj7yZ0/edit?usp=sharing" className="rounded-sm border-white border-2 p-1 mx-1">
             <HiOutlineDocumentText className="text-lg " />
         </a>
     },
