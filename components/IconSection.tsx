@@ -17,16 +17,16 @@ const IconArray = [
         element: <DiNodejs className="text-6xl " aria-label="NodeJS Icon" keyaria-label="NodeJS Icon" style={{ color: '#44843D' }} />
     },
     {
-        element: <DiPython color='#255074' className="text-6xl " aria-label="Python Icon" key="Python Icon" />
+        element: <DiPython color='#255074' className="text-6xl h-[55px] w-[50px]" aria-label="Python Icon" key="Python Icon" />
     },
     {
-        element: <DiJava className="text-6xl " aria-label="Java Icon" key="Java Icon" style={{ color: '#E11F22' }} />
+        element: <DiJava className="text-6xl h-[50px] w-[50px]" aria-label="Java Icon" key="Java Icon" style={{ color: '#E11F22' }} />
     }
 ]
 
 
 const IconSection = (): JSX.Element => (
-    <section className='w-full flex justify-around items-center mb-10 max-w-[280px] sm:max-w-[560px]'>
+    <section className='w-full flex justify-around items-center flex-wrap mb-10 max-w-[220px] sm:max-w-[560px]'>
         {IconArray.map(icon => icon.element)}
     </section>
 )

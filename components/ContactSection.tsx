@@ -4,23 +4,23 @@ import { HiOutlineDocumentText } from 'react-icons/hi'
 
 const contactLinks = [
     {
-        element: <a href="https://www.linkedin.com/in/andrewjmoses/" className="rounded-sm border-white border-2 p-1 mx-1">
+        element: <a href="https://www.linkedin.com/in/andrewjmoses/" className="rounded-sm border-white border-2 p-1 mx-1" aria-label="Visit my Linkedin page">
             <SiLinkedin className="text-lg " />
         </a>
     },
     {
-        element: <a href="https://github.com/andrewmosesdev" className="rounded-sm border-white border-2 p-1 mx-1">
+        element: <a href="https://github.com/andrewmosesdev" className="rounded-sm border-white border-2 p-1 mx-1" aria-label="Visit my GitHub page">
             <SiGithub className="text-lg " />
 
         </a>
     },
     {
-        element: <a href="mailto: andrewmosesdev@gmail.com" className="rounded-sm border-white border-2 p-1 mx-1">
+        element: <a href="mailto: andrewmosesdev@gmail.com" className="rounded-sm border-white border-2 p-1 mx-1" aria-label="Send me an email">
             <AiOutlineMail className="text-lg " />
         </a>
     },
     {
-        element: <a href="https://docs.google.com/document/d/1ATXNNyOWpP7TMpHcFFAZKqai5InChXYfKXqlFvj7yZ0/edit?usp=sharing" className="rounded-sm border-white border-2 p-1 mx-1">
+        element: <a href="https://docs.google.com/document/d/1ATXNNyOWpP7TMpHcFFAZKqai5InChXYfKXqlFvj7yZ0/edit?usp=sharing" className="rounded-sm border-white border-2 p-1 mx-1" aria-label="View my resume">
             <HiOutlineDocumentText className="text-lg " />
         </a>
     },
