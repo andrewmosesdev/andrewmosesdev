@@ -14,7 +14,7 @@ const IconArray = [
         element: <SiTypescript className="text-6xl h-[40px] w-[50px] " aria-label="TypeScript Icon" key="TypeScript Icon" style={{ color: '#3077C6' }} />
     },
     {
-        element: <DiNodejs className="text-6xl " aria-label="NodeJS Icon" keyaria-label="NodeJS Icon" style={{ color: '#44843D' }} />
+        element: <DiNodejs className="text-6xl " aria-label="NodeJS Icon" key="NodeJS Icon" style={{ color: '#44843D' }} />
     },
     {
         element: <DiPython color='#255074' className="text-6xl h-[55px] w-[50px]" aria-label="Python Icon" key="Python Icon" />
