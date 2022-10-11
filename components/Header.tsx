@@ -1,11 +1,28 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 const Header = () => (
-    <Head>
-        <title>andrewmoses.dev</title>
-        <meta name="description" content="Experienced software engineer and web developer focused on creating fast, scalable, and accessible applications with strong SEO." />
-        <link rel="shortcut icon" href="/icon.png" />
-    </Head>
-)
+  <Head>
+    <title>andrewmoses.dev</title>
+    <meta
+      name="description"
+      content="Experienced software engineer and web developer focused on creating fast, scalable, and accessible applications with strong SEO."
+    />
+    <link rel="shortcut icon" href="/icon.png" />
+    <link rel="canonical" href="https://www.andrewmoses.dev" />
 
-export { Header }
+    <meta
+      property="og:title"
+      content="Andrew Moses - Software Engineer | Web Developer"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.andrewmoses.dev" />
+    <meta property="og:image" content="/icon.png" />
+    <meta
+      property="og:description"
+      content="Experienced software engineer and web developer focused on creating fast, scalable, and accessible applications with strong SEO."
+    />
+    
+  </Head>
+);
+
+export { Header };

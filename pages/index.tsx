@@ -1,14 +1,28 @@
-import type { NextPage } from 'next'
-import { Header, Main, Footer } from '../components'
+import type { NextPage } from "next";
+import Script from "next/script";
+import { Header, Main, Footer } from "../components";
 
 const Home: NextPage = () => {
   return (
     <>
       <Header />
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-RPPR99R932"
+      ></Script>
+      <Script
+        id="gtm"
+        dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || [];
+                   function gtag(){dataLayer.push(arguments);}
+                   gtag('js', new Date());
+                   gtag('config', 'G-RPPR99R932');`,
+        }}
+      ></Script>
       <Main />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
