@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Software Engineer | Web Developer | Pro-Googler. Big fan of JavaScript, solving puzzles, and helping others in their coding journey.
+Software Engineer | Web Developer. Big fan of JavaScript, solving puzzles, and helping others in their coding journey.
 
 ---
 
