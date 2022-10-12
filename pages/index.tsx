@@ -9,16 +9,14 @@ const Home: NextPage = () => {
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-RPPR99R932"
+        strategy="afterInteractive"
       ></Script>
-      <Script
-        id="gtm"
-        dangerouslySetInnerHTML={{
-          __html: `window.dataLayer = window.dataLayer || [];
-                   function gtag(){dataLayer.push(arguments);}
-                   gtag('js', new Date());
-                   gtag('config', 'G-RPPR99R932');`,
-        }}
-      ></Script>
+      <Script id="gtm" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RPPR99R932');`}
+      </Script>
       <Main />
       <Footer />
     </>
