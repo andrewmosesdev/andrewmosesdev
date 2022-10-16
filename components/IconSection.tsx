@@ -11,10 +11,20 @@ const IconArray = [
   {
     element: (
       <DiReact
-        className="text-6xl "
+        className="h-[50px] w-[50px] mx-[4px]"
+        color="61DAFB"
         aria-label="React Icon"
         key="React Icon"
-        style={{ color: "#61dafb" }}
+      />
+    ),
+  },
+  {
+    element: (
+      <SiTypescript
+        color="3077C6"
+        className="h-[40px] w-[50px] mx-[4px]"
+        aria-label="TypeScript Icon"
+        key="TypeScript Icon"
       />
     ),
   },
@@ -22,29 +32,19 @@ const IconArray = [
     element: (
       <DiJavascript1
         key="JavaScript Icon"
-        className="text-6xl "
+        className="h-[50px] w-[50px] mx-[4px]"
+        color="FCDC00"
         aria-label="JavaScript Icon"
-        style={{ color: "#FCDC00" }}
-      />
-    ),
-  },
-  {
-    element: (
-      <SiTypescript
-        className="text-6xl h-[40px] w-[50px] "
-        aria-label="TypeScript Icon"
-        key="TypeScript Icon"
-        style={{ color: "#3077C6" }}
       />
     ),
   },
   {
     element: (
       <DiNodejs
-        className="text-6xl "
+        className="h-[50px] w-[50px] mx-[4px]"
+        color="44843D"
         aria-label="NodeJS Icon"
         key="NodeJS Icon"
-        style={{ color: "#44843D" }}
       />
     ),
   },
@@ -52,7 +52,7 @@ const IconArray = [
     element: (
       <DiPython
         color="#255074"
-        className="text-6xl h-[55px] w-[50px]"
+        className="h-[50px] w-[50px] mx-[4px]"
         aria-label="Python Icon"
         key="Python Icon"
       />
@@ -61,17 +61,17 @@ const IconArray = [
   {
     element: (
       <DiJava
-        className="text-6xl h-[50px] w-[50px]"
+        color="E11F22"
+        className="h-[50px] w-[50px] mx-[4px]"
         aria-label="Java Icon"
         key="Java Icon"
-        style={{ color: "#E11F22" }}
       />
     ),
   },
 ];
 
 const IconSection = (): JSX.Element => (
-  <section className="w-full flex justify-around items-center flex-wrap mb-10 max-w-[220px] sm:max-w-[560px]">
+  <section className="w-full flex items-center justify-around mb-10">
     {IconArray.map((icon) => icon.element)}
   </section>
 );
