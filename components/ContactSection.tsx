@@ -8,7 +8,7 @@ const contactLinks = [
       <a
         href="https://www.linkedin.com/in/andrewjmoses/"
         key="linkedin"
-        className="rounded-sm border-white border-2 p-1 mx-[8px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="Visit my Linkedin page"
       >
         <SiLinkedin className="text-lg " />
@@ -20,7 +20,7 @@ const contactLinks = [
       <a
         href="https://github.com/andrewmosesdev"
         key="github"
-        className="rounded-sm border-white border-2 p-1 mx-[8px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="Visit my GitHub page"
       >
         <SiGithub className="text-lg " />
@@ -32,7 +32,7 @@ const contactLinks = [
       <a
         href="mailto: andrewmosesdev@gmail.com"
         key="email"
-        className="rounded-sm border-white border-2 p-1 mx-[8px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="Send me an email"
       >
         <AiOutlineMail className="text-lg " />
@@ -44,7 +44,7 @@ const contactLinks = [
       <a
         href="https://docs.google.com/document/d/1ATXNNyOWpP7TMpHcFFAZKqai5InChXYfKXqlFvj7yZ0/edit?usp=sharing"
         key="resume"
-        className="rounded-sm border-white border-2 p-1 mx-[8px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="View my resume"
       >
         <HiOutlineDocumentText className="text-lg " />
