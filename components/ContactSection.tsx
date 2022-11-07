@@ -1,6 +1,7 @@
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import { AiOutlineMail } from "react-icons/ai";
 import { HiOutlineDocumentText } from "react-icons/hi";
+import { BiPodcast } from "react-icons/bi";
 
 const contactLinks = [
   {
@@ -48,6 +49,18 @@ const contactLinks = [
         aria-label="View my resume"
       >
         <HiOutlineDocumentText className="text-lg " />
+      </a>
+    ),
+  },
+  {
+    element: (
+      <a
+        href="https://www.codebrew.fm/"
+        key="podcast"
+        className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        aria-label="Visit my podcast website"
+      >
+        <BiPodcast className="text-lg " />
       </a>
     ),
   },
