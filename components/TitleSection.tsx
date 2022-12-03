@@ -5,7 +5,7 @@ const TitleSection = (): JSX.Element => (
       <span className="text-3xl mb-10 flex flex-col">
         <span className="mb-[8px]">Software Engineer </span>{" "}
         <span className="mb-[8px]">Web Developer </span>{" "}
-        <span className="mb-[8px]">JavaScript Tutor </span>{" "}
+        <span className="mb-[8px]">SEO Consultant </span>{" "}
       </span>
     </h1>
   </section>

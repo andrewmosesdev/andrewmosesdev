@@ -5,7 +5,7 @@ const Header = () => (
     <title>AM - Software Engineer | Web Developer</title>
     <meta
       name="description"
-      content="Experienced software engineer, web developer, and JavaScript tutor focused on creating fast, scalable, and accessible applications with strong SEO."
+      content="Experienced software engineer, web developer, and SEO Consultant focused on creating performant, scalable, and accessible applications."
     />
     <link rel="shortcut icon" href="/icon.png" />
     <link rel="canonical" href="https://www.andrewmoses.dev" />
@@ -19,7 +19,7 @@ const Header = () => (
     <meta property="og:image" content="/icon.png" />
     <meta
       property="og:description"
-      content="Experienced software engineer, web developer, and JavaScript tutor focused on creating fast, scalable, and accessible applications with strong SEO."
+      content="Experienced software engineer, web developer, and SEO Consultant focused on creating performant, scalable, and accessible applications."
     />
   </Head>
 );

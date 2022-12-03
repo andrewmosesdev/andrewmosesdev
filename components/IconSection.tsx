@@ -11,7 +11,7 @@ const IconArray = [
   {
     element: (
       <DiReact
-        className="h-[50px] w-[50px] mx-[4px]"
+        className="h-[60px] w-[60px] mx-[4px]"
         color="61DAFB"
         aria-label="React Icon"
         key="React Icon"
@@ -22,7 +22,7 @@ const IconArray = [
     element: (
       <SiTypescript
         color="3077C6"
-        className="h-[40px] w-[50px] mx-[4px]"
+        className="h-[50px] w-[60px] mx-[4px]"
         aria-label="TypeScript Icon"
         key="TypeScript Icon"
       />
@@ -32,7 +32,7 @@ const IconArray = [
     element: (
       <DiJavascript1
         key="JavaScript Icon"
-        className="h-[50px] w-[50px] mx-[4px]"
+        className="h-[60px] w-[60px] mx-[4px]"
         color="FCDC00"
         aria-label="JavaScript Icon"
       />
@@ -41,30 +41,10 @@ const IconArray = [
   {
     element: (
       <DiNodejs
-        className="h-[50px] w-[50px] mx-[4px]"
+        className="h-[60px] w-[60px] mx-[4px]"
         color="44843D"
         aria-label="NodeJS Icon"
         key="NodeJS Icon"
-      />
-    ),
-  },
-  {
-    element: (
-      <DiPython
-        color="#255074"
-        className="h-[50px] w-[50px] mx-[4px]"
-        aria-label="Python Icon"
-        key="Python Icon"
-      />
-    ),
-  },
-  {
-    element: (
-      <DiJava
-        color="E11F22"
-        className="h-[50px] w-[50px] mx-[4px]"
-        aria-label="Java Icon"
-        key="Java Icon"
       />
     ),
   },
