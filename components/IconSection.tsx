@@ -1,7 +1,5 @@
 import {
   DiReact,
-  DiPython,
-  DiJava,
   DiJavascript1,
   DiNodejs,
 } from "react-icons/di";
