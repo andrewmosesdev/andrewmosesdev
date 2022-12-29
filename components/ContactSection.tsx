@@ -11,6 +11,8 @@ const contactLinks = [
         key="linkedin"
         className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="Visit my Linkedin page"
+        target="_blank"
+        rel="noreferrer"
       >
         <SiLinkedin className="text-lg " />
       </a>
@@ -23,6 +25,8 @@ const contactLinks = [
         key="github"
         className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="Visit my GitHub page"
+        target="_blank"
+        rel="noreferrer"
       >
         <SiGithub className="text-lg " />
       </a>
@@ -35,6 +39,8 @@ const contactLinks = [
         key="email"
         className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="Send me an email"
+        target="_blank"
+        rel="noreferrer"
       >
         <AiOutlineMail className="text-lg " />
       </a>
@@ -47,6 +53,8 @@ const contactLinks = [
         key="resume"
         className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="View my resume"
+        target="_blank"
+        rel="noreferrer"
       >
         <HiOutlineDocumentText className="text-lg " />
       </a>
@@ -59,6 +67,8 @@ const contactLinks = [
         key="podcast"
         className="rounded-sm border-white border-2 p-1 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="Visit my podcast website"
+        target="_blank"
+        rel="noreferrer"
       >
         <BiPodcast className="text-lg " />
       </a>
