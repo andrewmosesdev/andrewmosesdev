@@ -25,6 +25,21 @@ const contactLinks = [
     element: (
       <motion.a
         variants={LINK_VARIANTS}
+        href="https://docs.google.com/document/d/1ATXNNyOWpP7TMpHcFFAZKqai5InChXYfKXqlFvj7yZ0/edit?usp=sharing"
+        key="resume"
+        className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        aria-label="View my resume"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <HiOutlineDocumentText className="text-xl " />
+      </motion.a>
+    ),
+  },
+  {
+    element: (
+      <motion.a
+        variants={LINK_VARIANTS}
         href="https://www.linkedin.com/in/andrewjmoses/"
         key="linkedin"
         className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
@@ -33,21 +48,6 @@ const contactLinks = [
         rel="noreferrer"
       >
         <SiLinkedin className="text-xl " />
-      </motion.a>
-    ),
-  },
-  {
-    element: (
-      <motion.a
-        variants={LINK_VARIANTS}
-        href="https://github.com/andrewmosesdev"
-        key="github"
-        className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
-        aria-label="Visit my GitHub page"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <SiGithub className="text-xl " />
       </motion.a>
     ),
   },
@@ -70,14 +70,14 @@ const contactLinks = [
     element: (
       <motion.a
         variants={LINK_VARIANTS}
-        href="https://docs.google.com/document/d/1ATXNNyOWpP7TMpHcFFAZKqai5InChXYfKXqlFvj7yZ0/edit?usp=sharing"
-        key="resume"
+        href="https://github.com/andrewmosesdev"
+        key="github"
         className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
-        aria-label="View my resume"
+        aria-label="Visit my GitHub page"
         target="_blank"
         rel="noreferrer"
       >
-        <HiOutlineDocumentText className="text-xl " />
+        <SiGithub className="text-xl " />
       </motion.a>
     ),
   },
