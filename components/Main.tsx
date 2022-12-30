@@ -4,7 +4,7 @@ import { About } from "./About";
 import { ContactSection } from "./ContactSection";
 
 const Main = (): JSX.Element => (
-  <main className="w-full h-full sm:h-screen flex justify-center items-center px-[12px] pt-[32px] sm:pt-0">
+  <main className="w-full h-screen flex justify-center items-center">
     <div className="w-full sm:max-w-[560px]">
       <TitleSection />
       <IconSection />
