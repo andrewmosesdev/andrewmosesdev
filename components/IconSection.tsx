@@ -52,15 +52,12 @@ const IconSection = (): JSX.Element => (
     variants={{
       [VARIANT.HIDE]: {
         opacity: 0,
-        y: 25,
       },
       [VARIANT.SHOW]: {
         opacity: 1,
         transition: {
-          opacity: { duration: 0.5 },
-          y: { bounce: 0.5, duration: 0.5, type: "spring" },
+          duration: 1,
         },
-        y: 0,
       },
     }}
   >

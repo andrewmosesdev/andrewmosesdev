@@ -6,13 +6,12 @@ const TitleSection = (): JSX.Element => (
     <motion.h1
       className="text-4xl mb-10"
       variants={{
-        [VARIANT.HIDE]: { opacity: 0, y: 25 },
+        [VARIANT.HIDE]: { opacity: 0 },
         [VARIANT.SHOW]: {
           opacity: 1,
           transition: {
-            y: { bounce: 0.5, duration: 1, type: "spring" },
+            duration: 1,
           },
-          y: 0,
         },
       }}
     >
@@ -21,13 +20,12 @@ const TitleSection = (): JSX.Element => (
     <motion.h2
       className="text-2xl mb-10"
       variants={{
-        [VARIANT.HIDE]: { opacity: 0, y: 25 },
+        [VARIANT.HIDE]: { opacity: 0 },
         [VARIANT.SHOW]: {
           opacity: 1,
           transition: {
-            y: { bounce: 0.5, duration: 0.5, type: "spring" },
+            duration: 1,
           },
-          y: 0,
         },
       }}
     >
