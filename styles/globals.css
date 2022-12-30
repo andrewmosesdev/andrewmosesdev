@@ -28,7 +28,7 @@ a {
   animation: flow 6s ease-in-out 1;
   background: linear-gradient(90deg, white, rgb(99 102 241));
   background-clip: text;
-  background-size: 400%;
+  background-size: 500%;
   -webkit-text-fill-color: transparent;
 }
 
