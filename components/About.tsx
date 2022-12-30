@@ -9,6 +9,7 @@ const About = (): JSX.Element => (
         [VARIANT.SHOW]: {
           opacity: 1,
           transition: {
+            delay: 0.5,
             y: { bounce: 0.5, duration: 1, type: "spring" },
           },
           y: 0,

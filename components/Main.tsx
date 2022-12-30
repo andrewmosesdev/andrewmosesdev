@@ -16,13 +16,29 @@ const Main = (): JSX.Element => (
         [VARIANT.SHOW]: {
           opacity: 1,
           transition: {
-            staggerChildren: 0.5,
+            staggerChildren: 0,
           },
         },
       }}
     >
       <TitleSection />
       <IconSection />
+    </motion.div>
+
+    <motion.div
+      animate={VARIANT.SHOW}
+      className="flex flex-col items-center"
+      initial={VARIANT.HIDE}
+      variants={{
+        [VARIANT.HIDE]: { opacity: 0 },
+        [VARIANT.SHOW]: {
+          opacity: 1,
+          transition: {
+            staggerChildren: 1,
+          },
+        },
+      }}
+    >
       <About />
       <ContactSection />
     </motion.div>

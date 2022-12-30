@@ -10,7 +10,7 @@ const TitleSection = (): JSX.Element => (
         [VARIANT.SHOW]: {
           opacity: 1,
           transition: {
-            y: { bounce: 0.5, duration: 0.5, type: "spring" },
+            y: { bounce: 0.5, duration: 1, type: "spring" },
           },
           y: 0,
         },
