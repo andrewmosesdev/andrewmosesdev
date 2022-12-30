@@ -11,14 +11,14 @@ export default function Custom404() {
         ></iframe>
       </div>
       <span className="text-lg mb-[18px]">
-        404 - This page doesn&apos;t exist (yet)
+        Oops - This page doesn&apos;t exist (yet)
       </span>
       <span className="text-lg">
         <a
           href="https://www.andrewmoses.dev"
           key="resume"
           className="rounded-sm border-2 p-1 mx-[10px] border-indigo-500 hover:bg-indigo-500 duration-300 text-indigo-500 hover:text-white "
-          aria-label="View my resume"
+          aria-label="Return to homepage"
         >
           Home
         </a>
