@@ -2,15 +2,30 @@ import { TitleSection } from "./TitleSection";
 import { IconSection } from "./IconSection";
 import { About } from "./About";
 import { ContactSection } from "./ContactSection";
+import { motion } from "framer-motion";
+import { VARIANT } from "./Constants";
 
 const Main = (): JSX.Element => (
-  <main className="w-full h-full flex justify-center items-center py-[32px] px-[8px]">
-    <div className="w-full sm:max-w-[560px]">
+  <main className="w-full h-full flex flex-col justify-center items-center py-[32px] px-[8px]">
+    <motion.div
+      animate={VARIANT.SHOW}
+      className="flex flex-col items-center"
+      initial={VARIANT.HIDE}
+      variants={{
+        [VARIANT.HIDE]: { opacity: 0 },
+        [VARIANT.SHOW]: {
+          opacity: 1,
+          transition: {
+            staggerChildren: 0.5,
+          },
+        },
+      }}
+    >
       <TitleSection />
       <IconSection />
       <About />
       <ContactSection />
-    </div>
+    </motion.div>
   </main>
 );
 

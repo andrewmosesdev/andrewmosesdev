@@ -1,9 +1,7 @@
-import {
-  DiReact,
-  DiJavascript1,
-  DiNodejs,
-} from "react-icons/di";
+import { motion } from "framer-motion";
+import { DiReact, DiJavascript1, DiNodejs } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
+import { VARIANT } from "./Constants";
 
 const IconArray = [
   {
@@ -49,9 +47,25 @@ const IconArray = [
 ];
 
 const IconSection = (): JSX.Element => (
-  <section className="w-full flex items-center justify-around mb-10">
-    {IconArray.map((icon) => icon.element)}
-  </section>
+  <motion.section
+    className="w-full sm:max-w-[560px] flex items-center justify-around mb-10"
+    variants={{
+      [VARIANT.HIDE]: {
+        opacity: 0,
+        y: 25,
+      },
+      [VARIANT.SHOW]: {
+        opacity: 1,
+        transition: {
+          opacity: { duration: 0.5 },
+          y: { bounce: 0.5, duration: 0.5, type: "spring" },
+        },
+        y: 0,
+      },
+    }}
+  >
+    {IconArray.map((icon, index) => icon.element)}
+  </motion.section>
 );
 
 export { IconSection };
