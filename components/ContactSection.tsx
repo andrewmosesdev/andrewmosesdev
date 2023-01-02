@@ -70,7 +70,7 @@ const contactLinks = [
     element: (
       <motion.a
         variants={LINK_VARIANTS}
-        href="https://github.com/andrewmosesdev"
+        href="https://github.com/andrewmosesRH"
         key="github"
         className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
         aria-label="Visit my GitHub page"
