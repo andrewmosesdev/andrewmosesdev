@@ -34,7 +34,7 @@ const Main = (): JSX.Element => (
         [VARIANT.SHOW]: {
           opacity: 1,
           transition: {
-            staggerChildren: 1,
+            staggerChildren: 2,
           },
         },
       }}
