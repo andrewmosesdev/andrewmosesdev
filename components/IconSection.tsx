@@ -61,7 +61,7 @@ const IconSection = (): JSX.Element => (
       },
     }}
   >
-    {IconArray.map((icon, index) => icon.element)}
+    {IconArray.map((icon) => icon.element)}
   </motion.section>
 );
 

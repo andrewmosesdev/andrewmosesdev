@@ -5,6 +5,9 @@ import { BiPodcast } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { VARIANT } from "./Constants";
 
+const LINK_CLASSES =
+  "rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300";
+
 const LINK_VARIANTS = {
   [VARIANT.HIDE]: {
     opacity: 0,
@@ -27,7 +30,7 @@ const contactLinks = [
         variants={LINK_VARIANTS}
         href="https://docs.google.com/document/d/1ATXNNyOWpP7TMpHcFFAZKqai5InChXYfKXqlFvj7yZ0/edit?usp=sharing"
         key="resume"
-        className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        className={LINK_CLASSES}
         aria-label="View my resume"
         target="_blank"
         rel="noreferrer"
@@ -42,7 +45,7 @@ const contactLinks = [
         variants={LINK_VARIANTS}
         href="https://www.linkedin.com/in/andrewjmoses/"
         key="linkedin"
-        className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        className={LINK_CLASSES}
         aria-label="Visit my Linkedin page"
         target="_blank"
         rel="noreferrer"
@@ -57,7 +60,7 @@ const contactLinks = [
         variants={LINK_VARIANTS}
         href="mailto: andrewmosesdev@gmail.com"
         key="email"
-        className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        className={LINK_CLASSES}
         aria-label="Send me an email"
         target="_blank"
         rel="noreferrer"
@@ -72,7 +75,7 @@ const contactLinks = [
         variants={LINK_VARIANTS}
         href="https://github.com/andrewmosesRH"
         key="github"
-        className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        className={LINK_CLASSES}
         aria-label="Visit my GitHub page"
         target="_blank"
         rel="noreferrer"
@@ -87,7 +90,7 @@ const contactLinks = [
         variants={LINK_VARIANTS}
         href="https://www.codebrew.fm/"
         key="podcast"
-        className="rounded-sm border-white border-2 p-2 mx-[10px] hover:border-indigo-500 hover:bg-indigo-500 duration-300"
+        className={LINK_CLASSES}
         aria-label="Visit my podcast website"
         target="_blank"
         rel="noreferrer"
